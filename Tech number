@@ -1,0 +1,12 @@
+N = int(input("Enter the number:"))
+M = str(N)
+length = len(M)
+if(length%2==0):
+    first = M[:length//2]
+    second = M[length//2:]
+    total = (int(first)+int(second))
+    square = total*total
+if(square==N):
+    print("It is a Tech number")
+else:
+    print("It is not a Tech number")
