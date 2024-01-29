@@ -1,0 +1,10 @@
+P = int(input("Enter the principal amount:"))
+N = int(input("Enter the no of years:"))
+G = input("Gender(M/F):")
+SC = input("Senior citizen(Yes/No):")
+if(SC=='Yes' and G=='M'):
+    print("Simple Interest:",(P*N*12)//100)
+elif(SC=='Yes' and G=='F'):
+     print("Simple Interest:",(P*N*15)//100)
+else:
+    print("Simple Interest:",(P*N*10)//100)
