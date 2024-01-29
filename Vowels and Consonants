@@ -1,0 +1,11 @@
+N = "Saveetha School Of Engineering"
+vowel = 0
+consonant = 0
+for i in N:
+    if(i=='a'or i=='e'or i=='i'or i=='o'
+       or i=='u' or i=='A' or i=='E' or i=='I' or i=='O' or i=='U'):
+        vowel+=1
+    else:
+        consonant+=1
+print("No of Vowels:",vowel)
+print("No of Consonants:",consonant)
