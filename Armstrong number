@@ -1,0 +1,11 @@
+N = int(input("Enter the number:"))
+sum=0
+original = N
+while N>0:
+    r = N%10
+    sum = sum+(r*r*r)
+    N=N//10
+if(sum==original):
+    print("It is a Armstrong number")
+else:
+    print("It is not a Armstrong number")
