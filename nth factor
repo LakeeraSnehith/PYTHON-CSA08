@@ -1,0 +1,10 @@
+N = int(input("Enter the number:"))
+y = []
+for x in range(1,N+1):
+    if(N%x==0):
+        y.append(x)
+print(y)
+print("No of factors:",len(y))
+n = int(input("Enter N value:"))
+print(n,"th Factor of",N)
+print(y[n-1])
