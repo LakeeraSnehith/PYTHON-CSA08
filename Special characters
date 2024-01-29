@@ -1,0 +1,7 @@
+N = input("Enter the string:")
+spec = 0
+for i in N:
+    if not i.isalnum() and not i.isspace():
+        spec+=1
+print("No of special characters:",spec)
+        
