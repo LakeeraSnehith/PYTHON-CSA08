@@ -1,0 +1,8 @@
+s1 = input("Enter the first string:")
+s2 = input("Enter the second string:")
+length = min(len(s1),len(s2))
+count = 0
+for i in range(length):
+    if s1[i]==s2[i]:
+        count+=1
+print("No of matches:",count)
